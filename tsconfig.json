@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/prisma-example/page.jsx", "components/TaskList.jsx", "components/TaskForm.jsx", "utils/actions.jsx", "app/layout.jsx", "app/page.jsx", "components/DeleteForm.jsx"],
   "exclude": ["node_modules"]
 }
